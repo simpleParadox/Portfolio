@@ -3,6 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 
+const port = process.env.PORT || 3000;
+
 var app = express();
 
 // Static files.
@@ -42,4 +44,4 @@ app.post('/submit',(req, res) => {
     res.send(200);
 });
 
-app.listen(3000);
+app.listen(port);
