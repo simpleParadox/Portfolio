@@ -159,13 +159,14 @@ body{
     margin-top:-10px;
     color: whitesmoke;
     line-height: 95%;
-    font-family: fantasy;
+    font-family: sans-serif;
 }
 #overview-data{
     background-color: #006837;
     font-size:59%;
     margin-top: -10px;
     border: none;
+    font-family: cursive;
 }
 #overview-data .row{
     margin-top:2%;
@@ -268,7 +269,7 @@ body{
 }
 @media only screen and (min-width: 1000px) {
     #projects{
-        border-left-style: dashed;
+        border-left-style: dotted;
         border-left-color: whitesmoke;
     }
 }
