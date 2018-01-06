@@ -69,7 +69,8 @@ body{
     margin-top:5%;
 }
 #my-name{
-    opacity: 0;
+    opacity: 1;
+    margin-left:-1000px;
 }
 .list-group-item{
     background-color: rgba(0,0,0,0);
@@ -113,6 +114,9 @@ body{
     margin-bottom: 10%;
     cursor: pointer;
 }
+#wrapper-academics{
+    opacity: 0;
+}
 .list-group-item-heading small{
     font-size:15px;
 }
@@ -128,6 +132,7 @@ body{
 #acad-heading{
     text-align: center;
     color: azure;
+    opacity:0;
     margin-top:45px;
     margin-bottom:2%;
 }
@@ -186,6 +191,9 @@ body{
 #skills{
     background-color: azure;
 }
+#skills .container-fluid{
+    opacity: 0;
+}
 #skills-heading{
     text-align: center;
     margin-top: 45px;
@@ -233,6 +241,7 @@ body{
 #extra .container-fluid .row{
     margin-top: 3%;
     margin-bottom:4%;
+    opacity: 0;
 }
 #row-extra .col-md-6{
     margin-left: 5%;
@@ -341,7 +350,8 @@ footer .container-fluid .row div img{
     margin-bottom: 30px;
 }
 
-/*Animations*/
+/*Animations*/ }
+}
 @-webkit-keyframes bounce{
     0%, 100%{
         transform: translateY(0px);
