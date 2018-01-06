@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(rgba(93, 159, 93, 0.6), rgba(96, 12, 12, 0.81)), url("../SVGs/wavy.jpg"); background-repeat: no-repeat; background-size: cover;background-position: center; height: 768px;
+    background:linear-gradient(rgba(238, 9, 121, 0.65), rgba(255, 106, 0, 0.75)), url("../SVGs/wavy.jpg"); background-repeat: no-repeat; background-size: cover;background-position: center; height: 768px;
     background-attachment: fixed;
 }
 #top-line{
@@ -106,13 +106,12 @@ body{
 
 /*Academics section.*/
 #academics{
-    background-color: #006837;
+    background: linear-gradient(90deg,rgb(15, 12, 41),rgb(72, 64, 145),rgb(15, 12, 41));
 }
 #academic-data{
     margin-top:2%;
-    box-shadow: 10px 10px 100px 20px rgba(21, 211, 43, 0.51);
-    background-color: rgba(46, 167, 60, 0.6);
     margin-bottom: 10%;
+    background-color: 
     cursor: pointer;
 }
 .list-group-item-heading small{
@@ -141,7 +140,7 @@ body{
 
 }
 .myDesc{
-    background-color: #006837;
+    background:  linear-gradient(90deg,rgba(15, 12, 41,0),rgba(48, 43, 99,0),rgba(15, 12, 41,0));
 }
 .myDesc .panel-body .h1{
     margin-top:-10px;
@@ -162,7 +161,7 @@ body{
     font-family: sans-serif;
 }
 #overview-data{
-    background-color: #006837;
+    background: rgba(0,0,0,0);
     font-size:59%;
     margin-top: -10px;
     border: none;
@@ -299,7 +298,7 @@ body{
 }
 /*Contact section*/
 #contact{
-    background-color: #527e61;
+    background: linear-gradient(#181818,#BA8B02);
 }
 #contact-heading{
     text-align: center;
