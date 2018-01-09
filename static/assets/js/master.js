@@ -32,8 +32,8 @@ $(document).ready(() =>{
     
     // Sliding in
     setTimeout(()=>{
-        $('#my-name').animate({'margin-left':'0px'},800);
-    });
+        $('#my-name').animate({'margin-left':'0px'},1000);
+    },400);
     
     setTimeout(()=>{
         setTimeout(()=>{$('#lgi-1').fadeTo(600,1);},800);
@@ -43,7 +43,7 @@ $(document).ready(() =>{
         setTimeout(()=>{
             $('#down-arrow').fadeTo(500,1);
         },3100);
-    },500);
+    },800);
     // Implementing smooth scrolling.
     $('a[href^="#"]').on('click',function(event){
         event.preventDefault(); 
