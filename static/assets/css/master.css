@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(rgba(238, 9, 121, 0.65), rgba(255, 106, 0, 0.75)), url("../SVGs/wavy.jpg"); background-repeat: no-repeat; background-size: cover;background-position: center; height: 768px;
+    background:linear-gradient(rgba(6, 17, 97, 0.7), rgba(120, 2, 6, 0.78)), url("../SVGs/wavy.jpg"); background-repeat: no-repeat; background-size: cover;background-position: center; height: 768px;
     background-attachment: fixed;
 }
 #top-line{
